@@ -1,0 +1,16 @@
+# Ignore .env files
+.env
+.env.*
+# Ignore all .json files
+
+# Uncomment if you want to exclude only specific .json files, like secrets or configs
+# secrets.json
+# config.json
+
+aura-ai-key.json
+
+
+# Ignore node_modules and other common directories
+node_modules/
+dist/
+build/
