@@ -21,7 +21,7 @@ app.use(express.json());
 
 
 
-app.post('/chat/completions', async (req, res) => {
+app.get('/chat/completions', async (req, res) => {
 
     try{
        console.log( req.body);
